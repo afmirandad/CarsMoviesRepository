@@ -1,0 +1,15 @@
+<h1>Movies</h1>
+<table border="1">
+    <tr><th>Title</th><th>Year</th><th>Duration</th></tr>
+    <tr th:each="movie : ${movies}">
+        <td th:text="${movie.carMovieName}"></td>
+        <td th:text="${movie.carMovieYear}"></td>
+        <td th:text="${movie.duration} + ' min'"></td>
+    </tr>
+</table>
+
+<div>
+    <span>Page [[${currentPage + 1}]] of [[${totalPages}]]</span><br>
+    <a th:href="@{'/movies?page=' + ${currentPage - 1}}" th:if="${currentPage > 0}">Previous</a>
+    <a th:href="@{'/movies?page=' + ${currentPage + 1}}" th:if="${currentPage + 1 < totalPages}">Next</a>
+</div>

@@ -1,2 +1,6 @@
-com/carsmoviesfrontend/app/controller/MoviesController.class
+com/carsmoviesfrontend/app/config/WebClientConfig.class
+com/carsmoviesfrontend/app/controllers/MoviesController.class
+com/carsmoviesfrontend/app/models/PagedResponse.class
+com/carsmoviesfrontend/app/models/Movie.class
+com/carsmoviesfrontend/app/services/MoviesService.class
 com/carsmoviesfrontend/app/AppApplication.class

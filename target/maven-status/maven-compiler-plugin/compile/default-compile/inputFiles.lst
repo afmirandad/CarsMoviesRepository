@@ -1,2 +1,6 @@
-/workspaces/CarsMoviesRepository/src/main/java/com/carsmoviesfrontend/app/AppApplication.java
-/workspaces/CarsMoviesRepository/src/main/java/com/carsmoviesfrontend/app/controller/MoviesController.java
+/Users/andresmiranda/SoftwareProjects/CarsMoviesRepository/src/main/java/com/carsmoviesfrontend/app/AppApplication.java
+/Users/andresmiranda/SoftwareProjects/CarsMoviesRepository/src/main/java/com/carsmoviesfrontend/app/config/WebClientConfig.java
+/Users/andresmiranda/SoftwareProjects/CarsMoviesRepository/src/main/java/com/carsmoviesfrontend/app/controllers/MoviesController.java
+/Users/andresmiranda/SoftwareProjects/CarsMoviesRepository/src/main/java/com/carsmoviesfrontend/app/models/Movie.java
+/Users/andresmiranda/SoftwareProjects/CarsMoviesRepository/src/main/java/com/carsmoviesfrontend/app/models/PagedResponse.java
+/Users/andresmiranda/SoftwareProjects/CarsMoviesRepository/src/main/java/com/carsmoviesfrontend/app/services/MoviesService.java
