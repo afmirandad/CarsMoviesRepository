@@ -10,7 +10,7 @@ public class WebClientConfig {
     @Bean
     public WebClient webClient() {
         return WebClient.builder()
-                .baseUrl("https://carsmoviesinventoryproject-production.up.railway.app")
+                .baseUrl("http://127.0.0.1:8080")
                 .build();
     }
 }
